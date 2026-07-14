@@ -1,0 +1,33 @@
+/* STYLE SECTIONING TAGS */
+body {
+  text-align: center;
+  
+  /* Add these lines to create the border */
+  border: 10px solid mediumaquamarine; /* Sets a 10px thick, solid navy border */
+  margin: 0;               /* Ensures the border touches the edge of the screen */
+  min-height: 100vh;       /* Makes sure the border stretches all the way down */
+  padding: 10px
+}
+
+/* STYLE TEXT */
+
+h1 {
+ text-align: center;
+  color: navy;
+  font-family: "Comic Sans MS", sans-serif;
+}
+header{
+  color:white;
+  background-color: skyblue;
+  margin-bottom: 5px
+}
+/* STYLE IMAGES */
+img {
+  display: block;
+  margin: 0 auto;  
+  margin-bottom: 5px; /* Centers the image horizontally */
+  width: 150px;  /* Custom width */
+  height: 50px;  border-radius: 10px;  
+  border: 3px solid white;/* Optional: gives the image soft, rounded corners */
+}
+/* STYLE NAV BAR */
