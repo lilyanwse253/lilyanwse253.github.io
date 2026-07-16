@@ -1,12 +1,15 @@
 /* STYLE SECTIONING TAGS */
 body {
   text-align: center;
-  
+    margin: 0;
+    padding: 0;
   /* Add these lines to create the border */
   border: 10px solid mediumaquamarine; /* Sets a 10px thick, solid navy border */
   margin: 0;               /* Ensures the border touches the edge of the screen */
   min-height: 100vh;       /* Makes sure the border stretches all the way down */
-  padding: 10px
+  padding: 10px;
+  font-family: "Arial Rounded", sans-serif;
+  background-color: #dbe0db;
 }
 
 /* STYLE TEXT */
@@ -15,25 +18,85 @@ h1 {
  text-align: center;
   color: navy;
   font-family: "Comic Sans MS", sans-serif;
+    text-shadow: 1px 1px lightgray;
 }
+.testone {
+  color: purple;
+}
+
+#testtwo {
+  color: deeppink
+}
+
+#about{
+  color: darkgoldenrod;
+}
+
+#experience{
+  color: darkcyan;
+}
+
 header{
   color:white;
   background-color: skyblue;
-  margin-bottom: 5px;
-  padding: 5px 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px;
 }
 /* STYLE IMAGES */
 main{text-align: center;
-    margin-top: 0;
+     font-size: 14px;
+    margin-top: 5%;
     margin-bottom: 0;
     margin-right: 20%;
-    margin-left:20%;}
-img {
+    margin-left:20%;
+    }
+
+#intro_image {
   display: block;
-  margin: 0 auto;  
+  margin: 0 auto;
   margin-bottom: 5px; /* Centers the image horizontally */
-  width: 150px;  /* Custom width */
-  height: 50px;  border-radius: 10px;  
-  border: 3px solid white;/* Optional: gives the image soft, rounded corners */
+  width: 150px; /* /* Custom width */
+  height: 50px; border-radius: 10px;
+  border: 3px solid white; /* Optional: gives the image soft, rounded corners */
+}
+#verity_image{
+  margin: 0 auto;
+  width: 300px; /* /* Custom width */
+  height: 50px; border-radius: 10px;}
+
+#port_image {
+  width: 100%;
+  max-width: 250px;  /* Change this number to resize your image */
+  height: auto;      /* Keeps the image from getting squished */
+  border-radius: 10px ;
+}
+#introfooter{
+    margin-top: 100%;
+}
+#port_text{
+  font-size: 16px;
+  font-family: "Roboto";
 }
 /* STYLE NAV BAR */
+ul{
+  list-style-type: none;
+  background-color: lightgray;
+  overflow: hidden;
+  padding: 1px;
+}
+.tenor-gif-embed{
+
+}
+li{
+  display:inline;
+}
+
+li a {text-decorationLnone;
+     color: black;
+     font-size: 20px;
+     padding: 5px;
+     }
+
+li a:hover {
+  background-color: darkgoldenrod;
+}
