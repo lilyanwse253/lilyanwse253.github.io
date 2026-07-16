@@ -63,20 +63,7 @@ main{text-align: center;
   margin: 0 auto;
   width: 300px; /* /* Custom width */
   height: 50px; border-radius: 10px;}
-#verityno2 {
-  width:1000px;
-  height:1000px;
-  animation: spin 3s infinite linear ; /* Controls name, speed, loop, and timing */
-}
 
-/* Define the spin movement */
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 #port_image {
   width: 100%;
   max-width: 250px;  /* Change this number to resize your image */
@@ -97,7 +84,9 @@ ul{
   overflow: hidden;
   padding: 1px;
 }
+.tenor-gif-embed{
 
+}
 li{
   display:inline;
 }
