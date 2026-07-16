@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
   /* Add these lines to create the border */
-  border: 10px solid mediumaquamarine; /* Sets a 10px thick, solid navy border */
+  border: 10px solid lightbrown; /* Sets a 10px thick, solid navy border */
   margin: 0;               /* Ensures the border touches the edge of the screen */
   min-height: 100vh;       /* Makes sure the border stretches all the way down */
   padding: 10px;
