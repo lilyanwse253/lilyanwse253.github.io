@@ -1,18 +1,18 @@
-/* STYLE SECTIONING TAGS */
+
 body {
   text-align: center;
     margin: 0;
     padding: 0;
-  /* Add these lines to create the border */
-  border: 10px solid lightbrown; /* Sets a 10px thick, solid navy border */
-  margin: 0;               /* Ensures the border touches the edge of the screen */
-  min-height: 100vh;       /* Makes sure the border stretches all the way down */
+
+  border: 10px solid #a0522d;
+  margin: 0;              
+  min-height: 100vh;       
   padding: 10px;
   font-family: "Arial Rounded", sans-serif;
   background-color: #dbe0db;
 }
 
-/* STYLE TEXT */
+
 .darkmode {
   background-color: darkgrey;
   color: white;
@@ -57,20 +57,20 @@ main{text-align: center;
 #intro_image {
   display: block;
   margin: 0 auto;
-  margin-bottom: 5px; /* Centers the image horizontally */
-  width: 150px; /* /* Custom width */
+  margin-bottom: 5px; 
+  width: 150px; 
   height: 50px; border-radius: 10px;
-  border: 3px solid white; /* Optional: gives the image soft, rounded corners */
+  border: 3px solid white; 
 }
 #verity_image{
   margin: 0 auto;
-  width: 300px; /* /* Custom width */
+  width: 300px;
   height: 50px; border-radius: 10px;}
 
 #port_image {
   width: 100%;
-  max-width: 250px;  /* Change this number to resize your image */
-  height: auto;      /* Keeps the image from getting squished */
+  max-width: 250px;  
+  height: auto;    
   border-radius: 10px ;
 }
 #introfooter{
@@ -87,9 +87,7 @@ ul{
   overflow: hidden;
   padding: 1px;
 }
-.tenor-gif-embed{
 
-}
 li{
   display:inline;
 }
