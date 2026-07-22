@@ -13,7 +13,10 @@ body {
 }
 
 /* STYLE TEXT */
-
+.darkmode {
+  background-color: darkgrey;
+  color: white;
+}
 h1 {
  text-align: center;
   color: navy;
